@@ -7,22 +7,23 @@
 
         default_layer { // Layer 0
             bindings = <
-                &kp KC_ESC    &kp KC_1    &kp KC_2    &kp KC_3    &kp KC_4    &kp KC_5    &kp KC_6    &kp KC_7    &kp KC_8    &kp KC_9    &kp KC_0    &kp KC_MINS    &kp KC_EQL
-                &kp KC_TAB    &kp KC_Q    &kp KC_W    &kp KC_E    &kp KC_R    &kp KC_T    &kp KC_Y    &kp KC_U    &kp KC_I    &kp KC_O    &kp KC_P    &kp KC_LBRC    &kp KC_RBRC
-                &mo 1    &kp KC_A    &kp KC_S    &kp KC_D    &kp KC_F    &kp KC_G    &kp KC_H    &kp KC_J    &kp KC_K    &kp KC_L    &kp KC_SCLN    &kp KC_QUOT    &kp KC_ENT
-                &kp KC_LSFT    &kp KC_Z    &kp KC_X    &kp KC_C    &kp KC_V    &kp KC_B    &kp KC_N    &kp KC_M    &kp KC_COMM    &kp KC_DOT    &kp KC_SLSH    &kp KC_UP    &kp KC_BSLS
-                &kp KC_LCTL    &kp KC_LGUI    &kp KC_LALT    &kp KC_NO    &kp KC_NO    &kp KC_SPC    &kp KC_NO    &kp KC_BSPC    &mo 1    &kp KC_LEFT    &kp KC_DOWN    &kp KC_RGHT   &kp KC_NO
+                &kp ESC    &kp 1    &kp 2    &kp 3    &kp 4    &kp 5    &kp 6    &kp 7    &kp 8    &kp 9    &kp 0    &kp MINUS    &kp EQUAL
+                &kp TAB    &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I    &kp O    &kp P    &kp LBKT    &kp RBKT
+                &mo 1    &kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &kp K    &kp L    &kp SEMI    &kp SQT    &kp RET
+                &kp LSHFT    &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &kp COMMA    &kp DOT    &kp FSLH    &kp UP    &kp BSLH
+                &kp LCTRL    &kp LGUI    &kp LALT    &trans    &trans    &kp SPACE    &trans    &kp BSPC  &kp BSLH  &mo 1    &kp LEFT    &kp DOWN    &kp RIGHT
             >;
         };
 
         layer_1 { // Layer 1
             bindings = <
-                &kp KC_GRV    &kp KC_F1    &kp KC_F2    &kp KC_F3    &kp KC_F4    &kp KC_F5    &kp KC_F6    &kp KC_F7    &kp KC_F8    &kp KC_F9    &kp KC_F10    &kp KC_F11    &kp KC_F12
-                &kp KC_CAPS    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR    &kp KC_TRNS    &kp KC_TRNS    &kp KC_PSCR    &kp KC_SLCK    &kp KC_PAUS    &kp KC_TRNS
-                &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_INS    &kp KC_HOME    &kp KC_PGUP    &kp KC_TRNS
-                &kp KC_TRNS    &kp KC_MUTE    &kp KC_VOLD    &kp KC_VOLU    &kp KC_TRNS    &bootloader    &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_END    &kp KC_PGDN    &kp KC_RSFT    &kp KC_TRNS
-                &kp KC_TRNS    &kp KC_TRNS    &kp KC_TRNS    &kp KC_NO    &kp KC_NO    &kp KC_TRNS    &kp KC_NO    &kp KC_DEL    &kp MO()    &kp KC_RALT    &kp KC_APP    &kp KC_RCTL    &kp KC_NO
+                &kp GRAVE    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12
+                &kp CAPS    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR    &trans    &trans    &kp PSCR    &kp SLCK    &kp PAUS    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp INS    &kp HOME    &kp PGUP    &trans
+                &trans    &kp MUTE    &kp VOLD    &kp VOLU    &trans    &bootloader    &trans    &trans    &trans    &kp END    &kp PGDN    &kp RSHFT    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp DEL    &trans  &trans  &kp RALT    &kp APP    &kp RCTRL
             >;
         };
+
     };
  };
