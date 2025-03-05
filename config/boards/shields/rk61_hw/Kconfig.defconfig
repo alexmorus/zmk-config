@@ -1,0 +1,6 @@
+if SHIELD_RK61_HW
+
+config ZMK_KEYBOARD_NAME
+    default "rk61_hw"
+
+endif
