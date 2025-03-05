@@ -1,2 +1,2 @@
 config SHIELD_RK61_HW
-    def_bool $(shield_list_contains,rk61_hw)
+    def_bool $(shields_list_contains,rk61_hw)
