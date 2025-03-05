@@ -8,6 +8,10 @@
 };
 
 / {
+    chosen {
+        zmk,battery = &vbatt;
+    }
+
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -50,6 +54,12 @@
             RC(4,0) RC(4,1) RC(4,2)                RC(4,5)          RC(4,7) RC(4,8) RC(4,9) RC(4,10) RC(4,11) RC(4,12)
         >;
     };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        label = "BATTERY";
+    };
+
 };
 
 
