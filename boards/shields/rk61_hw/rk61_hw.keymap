@@ -18,7 +18,7 @@
         layer_1 { // Layer 1
             bindings = <
                 &kp GRAVE    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12
-                &kp CAPS    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &trans    &trans    &bt BT_CLR    &trans    &trans    &kp PSCR    &kp SLCK    &kp PAUS    &trans
+                &kp CAPS    &bt (BT_SEL 0)    &bt (BT_SEL 1)    &bt (BT_SEL 2)    &trans    &trans    &bt BT_CLR    &trans    &trans    &kp PSCR    &kp SLCK    &kp PAUS    &trans
                 &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp INS    &kp HOME    &kp PGUP    &trans
                 &trans    &kp MUTE    &kp VOLD    &kp VOLU    &trans    &bootloader    &trans    &trans    &trans    &kp END    &kp PGDN    &kp RSHFT    &trans
                 &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp DEL    &trans  &trans  &kp RALT    &kp APP    &kp RCTRL
