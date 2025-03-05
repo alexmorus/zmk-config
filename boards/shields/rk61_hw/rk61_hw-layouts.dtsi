@@ -7,6 +7,5 @@
         display-name = "Default";
         transform = <&default_transform>;
         kscan = <&kscan0>;
-        battery = <&vbatt>;
     };
 };
