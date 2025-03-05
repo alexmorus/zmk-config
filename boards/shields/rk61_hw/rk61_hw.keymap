@@ -22,7 +22,7 @@
                 &kp CAPS  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &bt BT_CLR    &trans    &trans    &kp PRINTSCREEN    &kp SLCK    &kp C_PAUSE    &trans
                 &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp INS    &kp HOME    &kp PG_UP    &trans
                 &trans    &kp C_MUTE    &kp C_VOL_DN    &kp C_VOL_UP    &trans    &bootloader    &trans    &trans    &trans    &kp END    &kp PG_DN    &kp RSHFT    &trans
-                &trans    &trans    &trans                            &trans                &kp DEL    &trans  &trans  &kp RALT    &kp APP    &kp RCTRL
+                &trans    &trans    &trans                            &trans                &kp DEL    &trans  &trans  &kp RALT    &kp C_MENU    &kp RCTRL
             >;
         };
     };
